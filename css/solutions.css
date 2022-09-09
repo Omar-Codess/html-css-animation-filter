@@ -1,3 +1,15 @@
 .ex-1-square:hover{
     background-color: red;
 }
+
+.ex-2-square{
+
+}
+
+.ex-3-square:hover{
+    border-radius: 100%;
+}
+
+.ex-4-square:hover{
+    background-color: transparent;
+}
