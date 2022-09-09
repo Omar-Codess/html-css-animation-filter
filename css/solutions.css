@@ -18,6 +18,14 @@
     background-color: transparent;
 }
 
+.ex-5-square:hover{
+    scale: 1.2;
+}
+
+.ex-5-square:active{
+    scale: 0.9;
+}
+
 .ex-6-img:hover{
     filter: grayscale(100%);
 }
