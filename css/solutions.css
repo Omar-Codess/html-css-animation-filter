@@ -13,3 +13,7 @@
 .ex-4-square:hover{
     background-color: transparent;
 }
+
+.ex-6-img:hover{
+    filter: grayscale(100%);
+}
