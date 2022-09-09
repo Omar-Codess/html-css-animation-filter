@@ -89,3 +89,34 @@
         left: 20%;
     }
 }
+
+.ex-13-button:hover .ex-13-bottom-white{
+    animation: move-bottom 2s;
+}
+@keyframes move-bottom{
+    0%{
+        right: 20%;
+    }
+    50%{
+        right: 40%;
+    }
+    100%{
+        right: 20%;
+    }
+}
+
+.ex-13-button:hover .ex-13-top-white{
+    animation: move-top 2s;
+}
+@keyframes move-top{
+    0%{
+        left: 20%;
+    }
+    50%{
+        left: 40%;
+    }
+    100%{
+        left: 20%;
+    }
+}
+
