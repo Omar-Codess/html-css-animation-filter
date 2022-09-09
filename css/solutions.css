@@ -3,7 +3,11 @@
 }
 
 .ex-2-square{
+    transition-duration: 3s;
+}
 
+.ex-2-square:active{
+    width: 100%;
 }
 
 .ex-3-square:hover{
