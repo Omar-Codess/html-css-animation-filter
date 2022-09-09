@@ -22,3 +22,8 @@
     filter: grayscale(100%);
 }
 
+.ex-8-img:hover{
+    filter: grayscale(100%);
+    border-radius: 10%;
+}
+

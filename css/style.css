@@ -36,6 +36,11 @@
     transition: filter 2s;
 }
 
+.ex-8-img{
+    transition: border-radius, filter 2s;
+
+}
+
 
 .ex-9-img {
     margin: 50px 100px;
