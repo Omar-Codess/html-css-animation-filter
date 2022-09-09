@@ -60,10 +60,10 @@
     }
 }
 
-.ex-12-button:hover .ex-12-bottom-white, .ex-12-top-white{
-    animation: move 2s;
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: move-bottom 2s;
 }
-@keyframes move{
+@keyframes move-bottom{
     0%{
         right: 20%;
     }
@@ -72,5 +72,20 @@
     }
     100%{
         right: 20%;
+    }
+}
+
+.ex-12-button:hover .ex-12-top-white{
+    animation: move-top 2s;
+}
+@keyframes move-top{
+    0%{
+        left: 20%;
+    }
+    50%{
+        left: 40%;
+    }
+    100%{
+        left: 20%;
     }
 }
