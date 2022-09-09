@@ -47,3 +47,18 @@
         transform: rotate(0);
     }
 }
+
+.ex-12-button:hover .ex-12-bottom-white, .ex-12-top-white{
+    animation: move 2s;
+}
+@keyframes move{
+    0%{
+        right: 20%;
+    }
+    50%{
+        right: 40%;
+    }
+    100%{
+        right: 20%;
+    }
+}
