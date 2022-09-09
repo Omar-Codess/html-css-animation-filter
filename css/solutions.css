@@ -27,3 +27,8 @@
     border-radius: 10%;
 }
 
+.ex-9-img:hover{
+    filter: grayscale(100%);
+    border-radius: 10%;
+    transform: scale(1.3);
+}
